@@ -12,7 +12,15 @@ const activeChainId = ChainId.Rinkeby;
 // Wrap your app with the thirdweb provider
 ReactDOM.render(
   <React.StrictMode>
-    <ThirdwebProvider desiredChainId={activeChainId}>
+    <ThirdwebProvider 
+      desiredChainId={activeChainId}
+      dAppMeta={{
+        name: "FantasyDAO",
+        description: "This is a fantasy DAO",
+        isDarkMode: false,
+        logoUrl: "https://example.com/logo.png",
+        url: "https://example.com",
+      }}>
       <App />
     </ThirdwebProvider>
   </React.StrictMode>,

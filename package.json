@@ -18,5 +18,21 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "vite": "^2.3.8"
-  }
+  },
+  "description": "### **Welcome 👋** To get started with this course, clone this repo and follow these commands:",
+  "main": "vite.config.js",
+  "devDependencies": {
+    "node": "^17.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NomadaNFT/Test-DAO-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NomadaNFT/Test-DAO-javascript/issues"
+  },
+  "homepage": "https://github.com/NomadaNFT/Test-DAO-javascript#readme"
 }
